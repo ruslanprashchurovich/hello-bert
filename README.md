@@ -1,6 +1,6 @@
 # Hello Bert: Sentiment Analysis for Flying Food
 
-![image.png](attachment:image.png)
+![BERT Architecture](images/bert.png)
 
 End-to-end решение для анализа тональности отзывов сервиса доставки еды Flying Food с использованием классических методов машинного обучения и fine-tuning BERT.
 
