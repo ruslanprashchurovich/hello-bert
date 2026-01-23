@@ -1,0 +1,15 @@
+model:
+  pretrained_name: "bert-base-uncased"
+  num_labels: 3
+  dropout_rate: 0.1
+
+training:
+  batch_size: 16
+  epochs: 5
+  learning_rate: 2e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+
+data:
+  max_length: 128
+  file: "data/reviews.csv"
