@@ -51,3 +51,5 @@ Thumbs.db
 # Logs
 *.log
 wandb/
+# Генерируется scripts/prepare_data.py из Amazon Fine Food Reviews
+data/food_reviews.csv
